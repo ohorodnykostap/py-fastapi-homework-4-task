@@ -11,7 +11,6 @@ from validation import (
 )
 
 
-
 class ProfileCreateSchema(BaseModel):
     first_name: str
     last_name: str
@@ -150,4 +149,3 @@ class ProfileResponseSchema(BaseModel):
     date_of_birth: date
     info: str
     avatar: HttpUrl
-
